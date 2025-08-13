@@ -1,63 +1,52 @@
-// export default function importAll(r) {
-//   let images = {};
-//   r.keys().forEach((item) => {
-//     images[item.replace('./', '')] = r(item);
-//   });
-//   return images;
-// }
-
-// const images = importAll(require.context('./src/assets', false, /\.(png|jpe?g|svg)$/));
-
-import pic from './src/assets/anhNenPhim.png' 
+import { dataImgs } from './src/assets' 
 export const dataPhimDeCu = [
     {title:"Phim Đề Cử",
     flim:[
         {   
             idphim:1,
-            img:pic,
-            // img:images['anh.jpg'],
+            img:dataImgs.anh,
             quality:"Hoàn tất(12/12)",
             title:"Phó Luật Seocho"
         },
         {
             idphim:2,
-            img:pic,
+            img:dataImgs.anhPhim,
             quality:"Tập 4-Vietsub",
             title:"Hoa Sơn Luận Kiếm"
         },
         {
             idphim:3,
-            img:pic,
+            img:dataImgs.anhPhim,
             quality:"Tập 25-Vietsub",
             title:"Phàm Nhân Tu Tiên ..."
         },
         {
             idphim:4,
-            img:pic,
+            img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"Phong Thần 2"
         },
         {
             idphim:5,
-            img:pic,
+            img:dataImgs.anhPhim,
             quality:"Tập 4-Vietsub",
             title:"Wednesday (Phần 2)"
         },
         {
             idphim:6,
-            img:pic,
+            img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"Na Tra 2"
         },
         {
             idphim:7,
-            img:pic,
+            img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"Thế Giới Không Đồng"
         },
         {
             idphim:8,
-            img:pic,
+            img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"Huyệt Ấn Truy Hồn"
         }
@@ -87,49 +76,49 @@ export const dataPhimLe =[
         flim:[
         {   
             idphim:1,
-            img:pic,
+            img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"Blood Brothers"
         },
         {
             idphim:2,
-            img:pic,
+            img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"Giờ Thả Máu"
         },
         {
             idphim:3,
-            img:pic,
+            img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"Phi Vụ Kim Cương"
         },
         {
             idphim:4,
-            img:pic,
+            img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"Phong Thần 2"
         },
         {
             idphim:5,
-            img:pic,
+            img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"Buôn Bán Thần Thánh"
         },
         {
             idphim:6,
-            img:pic,
+            img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"Na Tra 2"
         },
         {
             idphim:7,
-            img:pic,
+            img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"Thế Giới Không Đồng"
         },
         {
             idphim:8,
-            img:pic,
+            img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"Huyệt Ấn Truy Hồn"
         }
@@ -160,43 +149,43 @@ export const dataPhimBoMoi =[
         flim:[
         {   
             idphim:1,
-            img:pic,
+            img:dataImgs.anhPhim,
             quality:"Tập 6-Vietsub",
             title:"Đội Tuyển Kỳ Tích"
         },
         {
             idphim:2,
-            img:pic,
+            img:dataImgs.anhPhim,
             quality:"Hoàn Tất(12/12)",
             title:"Phó Luật Seocho"
         },
         {
             idphim:3,
-            img:pic,
+            img:dataImgs.anhPhim,
             quality:"Tập 4-Vietsub",
             title:"Giấc Mơ Người Luật Sư"
         },
         {
             idphim:4,
-            img:pic,
+            img:dataImgs.anhPhim,
             quality:"Tập 9-Vietsub",
             title:"Hoa Sơn Luận Kiếm"
         },
         {
             idphim:5,
-            img:pic,
+            img:dataImgs.anhPhim,
             quality:"Tập 12-Vietsub",
             title:"Cẩm Nguyệt Như Ca"
         },
         {
             idphim:6,
-            img:pic,
+            img:dataImgs.anhPhim,
             quality:"Tập 25-Vietsub",
             title:"Phàm Nhân Tu Tiên Truyện"
         },
         {
             idphim:7,
-            img:pic,
+            img:dataImgs.anhPhim,
             quality:"Tập 12-Vietsub",
             title:"Thế Giới Không Đồng"
         }
@@ -228,43 +217,43 @@ export const dataPhimChieuRap =[
         flim:[
         {   
             idphim:1,
-            img:pic,
+            img:dataImgs.anhPhim,
             quality:"CAM-Vietsub",
             title:"Bộ Tứ Siêu Đẳng"
         },
         {
             idphim:2,
-            img:pic,
+            img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"Phong Thần 2"
         },
         {
             idphim:3,
-            img:pic,
+            img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"Giờ Thả Máu"
         },
         {
             idphim:4,
-            img:pic,
+            img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"Buôn Bán Thần Thánh"
         },
         {
             idphim:5,
-            img:pic,
+            img:dataImgs.anhPhim,
             quality:"TS-Vietsub",
             title:"Superman"
         },
         {
             idphim:6,
-            img:pic,
+            img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"Bí Kíp Luyện Rồng"
         },
         {
             idphim:7,
-            img:pic,
+            img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"M3GAN 2.0"
         }
@@ -288,37 +277,37 @@ export const dataPhimThinhHanh =[
         flim:[
         {   
             idphim:1,
-            img:pic,
+            img:dataImgs.anhPhim,
             quality:"Tập 25-Vietsub",
             title:"Phàm Nhân Tu Tiên Truyện"
         },
         {
             idphim:2,
-            img:pic,
+            img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"Phong Thần 2"
         },
         {
             idphim:3,
-            img:pic,
+            img:dataImgs.anhPhim,
             quality:"Tập 12-Vietsub",
             title:"Cẩm Nguyệt Như Ca"
         },
         {
             idphim:4,
-            img:pic,
+            img:dataImgs.anhPhim,
             quality:"Tập 4-Vietsub",
             title:"Wednesday (Phần 2)"
         },
         {
             idphim:5,
-            img:pic,
+            img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"Na Tra 2"
         },
         {
             idphim:6,
-            img:pic,
+            img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"Hoa Sơn Luận Kiếm"
         }
@@ -342,49 +331,49 @@ export const dataPhimMoiSapChieu =[
         flim:[
         {   
             idphim:1,
-            img:pic,
+            img:dataImgs.anhPhim,
             quality:"",
             title:"F1"
         },
         {
             idphim:2,
-            img:pic,
+            img:dataImgs.anhPhim,
             quality:"",
             title:"Doraemon Movie 44"
         },
         {
             idphim:3,
-            img:pic,
+            img:dataImgs.anhPhim,
             quality:"",
             title:"Nhiệm Vụ Bất Khả Thi"
         },
         {
             idphim:4,
-            img:pic,
+            img:dataImgs.anhPhim,
             quality:"",
             title:"Đất Nước Của Phản Diện"
         },
         {
             idphim:5,
-            img:pic,
+            img:dataImgs.anhPhim,
             quality:"",
             title:"Panor: Tà Thuật Huyết Ngải"
         },
         {
             idphim:6,
-            img:pic,
+            img:dataImgs.anhPhim,
             quality:"",
             title:"Rider: Giao Hàng Cho Ma"
         },
         {
             idphim:7,
-            img:pic,
+            img:dataImgs.anhPhim,
             quality:"",
             title:"Nhóc Quỷ Và Khu Rừng Kỳ Diệu"
         },
         {
             idphim:8,
-            img:pic,
+            img:dataImgs.anhPhim,
             quality:"",
             title:"Thiên Tài Ném Phao"
         }

@@ -1,7 +1,7 @@
 export default function MainContentPhim (){
     return (
         <main class="movie-grid-container">
-        <h2>Phim Mới > Phim Lẻ</h2>
+        <h2>Phim Mới/Phim Lẻ</h2>
         <div class="movie-grid">
             <a href="#" class="movie-card">
                 <div class="movie-image-container">

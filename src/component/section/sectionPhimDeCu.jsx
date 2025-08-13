@@ -2,7 +2,6 @@ export default function SectionPhimDeCu ({dataPhimDeCu}){
     return (
         <section className="movie-section featured-movies">
                     <div className="section-header">
-                    {/* {EXAMPLES[selecedTopic].title} */}
                         <h2>{dataPhimDeCu.title}</h2>
                     </div>
                     <div className="movie-list">

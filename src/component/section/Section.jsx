@@ -1,4 +1,4 @@
-export default function SectionPhimLe({dataPhimLe,dataPhimChieuRap,dataPhimBoMoi,dataPhimThinhHanh, dataPhimMoiSapChieu}){
+export default function SectionPhimLe({dataPhimDeCu,dataPhimLe,dataPhimChieuRap,dataPhimBoMoi,dataPhimThinhHanh, dataPhimMoiSapChieu}){
     return(
         <section className="movie-section newly-updated-singles">
             <div className="section-header">

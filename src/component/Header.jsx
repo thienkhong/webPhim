@@ -1,19 +1,20 @@
+import { Link } from "react-router-dom";
 export default function Header(){
     return(
         <header class="header">
         <div class="header-nav">
-            <a href="" class="logo">PhimMoi</a>
+            <Link to="#" class="logo">PhimMoi</Link>
             <nav class="main-nav">
                 <ul>
-                    <li><a href="#">PHIMMOI</a></li>
-                    <li><a href="#">PHIM LẺ</a></li>
-                    <li><a href="#">PHIM BỘ</a></li>
-                    <li><a href="#">THỂ LOẠI</a></li>
-                    <li><a href="#">QUỐC GIA</a></li>
-                    <li><a href="#">NĂM PHÁT HÀNH</a></li>
-                    <li><a href="#">PHIM CHIẾU RẠP</a></li>
-                    <li><a href="#">TRAILER</a></li>
-                    <li><a href="#">TOP PHIM</a></li>
+                    <li><Link to="/phimmoi">PHIMMOI</Link></li>
+                    <li><Link to="">PHIM LẺ</Link></li>
+                    <li><Link to="">PHIM BỘ</Link></li>
+                    <li><Link to="">THỂ LOẠI</Link></li>
+                    <li><Link to="">QUỐC GIA</Link></li>
+                    <li><Link to="">NĂM PHÁT HÀNH</Link></li>
+                    <li><Link to="">PHIM CHIẾU RẠP</Link></li>
+                    <li><Link to="">TRAILER</Link></li>
+                    <li><Link to="">TOP PHIM</Link></li>
                 </ul>
             </nav>
             <div class="search-box">
