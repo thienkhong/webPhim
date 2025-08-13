@@ -1,4 +1,4 @@
-export default function SectionPhimLe({dataPhimLe}){
+export default function SectionPhimLe({dataPhimLe,dataPhimChieuRap,dataPhimBoMoi,dataPhimThinhHanh, dataPhimMoiSapChieu}){
     return(
         <section className="movie-section newly-updated-singles">
             <div className="section-header">
@@ -12,13 +12,13 @@ export default function SectionPhimLe({dataPhimLe}){
             </div>
             <div className="movie-list">
             {dataPhimLe.flim.map((item)=>(
-                <div className="movie-item">
+                <a href={`/phim/${item.idphim}`} className="movie-item">
                     <img src={item.img} key={item.idphim} alt={item.title}/>
                     <div className="movie-info">
                         <span className="movie-quality">{item.quality}</span>
                         <div className="movie-title">{item.title}</div>
                     </div>
-                </div>
+                </a>
             ))}
                 
             </div>
