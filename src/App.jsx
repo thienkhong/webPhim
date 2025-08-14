@@ -13,7 +13,14 @@ function App() {
       <Header/>
       <Routes>
         <Route path="/" element={<MainContent/>}/>
-        <Route path="/phimmoi" element={<MainContentPhim />} />
+        <Route path="/phimle" element={<MainContentPhim />} />
+        <Route path="/phimbo" element={<MainContentPhim/>}/>
+        <Route path="/theloai" element={<MainContentPhim />} />
+        <Route path="/quocgia" element={<MainContentPhim/>}/>
+        <Route path="/namphathanh" element={<MainContentPhim />} />
+        <Route path="/phimchieurap" element={<MainContentPhim />} />
+        <Route path="/trailer" element={<MainContentPhim />} />
+        <Route path="/topphim" element={<MainContentPhim />} />
         {/* Thêm các Route khác nếu cần */}
       </Routes>
       <Footer/>

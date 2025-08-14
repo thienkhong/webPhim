@@ -4,7 +4,7 @@ export const dataPhimDeCu = [
     flim:[
         {   
             idphim:1,
-            img:dataImgs.anh,
+            img:dataImgs.anhPhim,
             quality:"Hoàn tất(12/12)",
             title:"Phó Luật Seocho"
         },

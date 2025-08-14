@@ -4,7 +4,7 @@ import SectionPhim from "./section/Section";
 
 export default function MainContent() {
     return (
-<main class="main-content">
+        <main className="main-content">
         {/* <section class="banner-ads">
             <div class="ads-container">
                 <img src="https://via.placeholder.com/1200x120?text=SaoBet+-+VB88+Quang+cao" alt="Banner quảng cáo lớn"/>
@@ -34,14 +34,14 @@ export default function MainContent() {
             <SectionPhim key={section.id} dataPhimLe={section}/>
         ))}
 
-        <section class="pagination">
+        <section className="pagination">
             <a href="#">1</a>
             <a href="#">2</a>
             <a href="#">3</a>
             <a href="#">4</a>
             <a href="#">5</a>
             <span>...</span>
-            <a href="#"><i class="fas fa-chevron-right"></i></a>
+            <a href="#"><i className="fas fa-chevron-right"></i></a>
         </section>
     </main>
     )
