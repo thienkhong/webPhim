@@ -9,9 +9,9 @@ export default function Header(){
                     <li><Link to="/">PHIMMOI</Link></li>
                     <li><Link to="/phimle">PHIM LẺ</Link></li>
                     <li><Link to="/phimbo">PHIM BỘ</Link></li>
-                    <li><Link to="/theloai">THỂ LOẠI</Link></li>
+                    {/* <li><Link to="/theloai">THỂ LOẠI</Link></li>
                     <li><Link to="/quocgia">QUỐC GIA</Link></li>
-                    <li><Link to="/namphathanh">NĂM PHÁT HÀNH</Link></li>
+                    <li><Link to="/namphathanh">NĂM PHÁT HÀNH</Link></li> */}
                     <li><Link to="/phimchieurap">PHIM CHIẾU RẠP</Link></li>
                     <li><Link to="/trailer">TRAILER</Link></li>
                     <li><Link to="/topphim">TOP PHIM</Link></li>
