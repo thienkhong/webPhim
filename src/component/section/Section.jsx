@@ -3,11 +3,13 @@ export default function SectionPhimLe({dataPhimDeCu,dataPhimLe,dataPhimChieuRap,
         <section className="movie-section newly-updated-singles">
             <div className="section-header">
                 <h2>{dataPhimLe.title}</h2>
+                {dataPhimLe.list && dataPhimLe.list.length > 0 && (
                 <div className="movie-category-nav" >
-                {dataPhimLe.list.map((item)=>(
+                    {dataPhimLe.list.map((item)=>(
                         <a href="#" key={item.idphim}>{item.title}</a>
                     ))}
-                    </div>
+                </div>
+                )}
                 <a href="#" className="see-all">Xem tất cả <i className="fas fa-chevron-right"></i></a>
             </div>
             <div className="movie-list">

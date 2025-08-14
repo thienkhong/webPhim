@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import MainContent from './component/MainContent'
 import Header from './component/Header'
 import Footer from './component/Footer'
-import MainContentPhim from './component/MainContentPhim'
 import PhimBo from "./component/MainSection/PhimBo"
 import PhimChieuRap from "./component/MainSection/PhimChieuRap"
 import PhimLe from "./component/MainSection/PhimLe"

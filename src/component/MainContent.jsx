@@ -1,5 +1,4 @@
 import { dataPhimDeCu, dataPhimLe, dataPhimChieuRap, dataPhimBoMoi,dataPhimThinhHanh,dataPhimMoiSapChieu } from '../../data'
-import SectionPhimDeCu from "./section/sectionPhimDeCu";
 import SectionPhim from "./section/Section";
 import SectionPagi from './section/SectionPagi';
 
@@ -12,7 +11,7 @@ export default function MainContent() {
             </div>
         </section> */}
         {dataPhimDeCu.map((section)=>(
-            <SectionPhimDeCu key={section.id} dataPhimDeCu={section}/>
+            <SectionPhim key={section.id} dataPhimLe={section}/>
         ))}
 
         {dataPhimLe.map((section)=>(

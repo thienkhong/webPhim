@@ -1,4 +1,5 @@
 import { dataImgs } from './src/assets' 
+
 export const dataPhimDeCu = [
     {title:"Phim Đề Cử",
     flim:[
@@ -112,6 +113,7 @@ export const dataPhimDeCu = [
         }
     ]},
 ]
+
 export const dataPhimLe =[
     {
         title: "PHIM LẺ MỚI CẬP NHẬT",
@@ -245,6 +247,7 @@ export const dataPhimLe =[
     ]
     }
 ]
+
 export const dataPhimBoMoi =[
     {
         title: "PHIM BỘ MỚI CẬP NHẬT",
@@ -305,6 +308,72 @@ export const dataPhimBoMoi =[
         },
         {
             idphim:7,
+            img:dataImgs.anhPhim,
+            quality:"Tập 12-Vietsub",
+            title:"Thế Giới Không Đồng"
+        },
+        {   
+            idphim:8,
+            img:dataImgs.anhPhim,
+            quality:"Tập 6-Vietsub",
+            title:"Đội Tuyển Kỳ Tích"
+        },
+        {
+            idphim:9,
+            img:dataImgs.anhPhim,
+            quality:"Hoàn Tất(12/12)",
+            title:"Phó Luật Seocho"
+        },
+        {
+            idphim:10,
+            img:dataImgs.anhPhim,
+            quality:"Tập 4-Vietsub",
+            title:"Giấc Mơ Người Luật Sư"
+        },
+        {
+            idphim:11,
+            img:dataImgs.anhPhim,
+            quality:"Tập 9-Vietsub",
+            title:"Hoa Sơn Luận Kiếm"
+        },
+        {
+            idphim:12,
+            img:dataImgs.anhPhim,
+            quality:"Tập 12-Vietsub",
+            title:"Cẩm Nguyệt Như Ca"
+        },
+        {
+            idphim:13,
+            img:dataImgs.anhPhim,
+            quality:"Tập 25-Vietsub",
+            title:"Phàm Nhân Tu Tiên Truyện"
+        },
+        {
+            idphim:14,
+            img:dataImgs.anhPhim,
+            quality:"Tập 12-Vietsub",
+            title:"Thế Giới Không Đồng"
+        },
+        {
+            idphim:15,
+            img:dataImgs.anhPhim,
+            quality:"Tập 9-Vietsub",
+            title:"Hoa Sơn Luận Kiếm"
+        },
+        {
+            idphim:16,
+            img:dataImgs.anhPhim,
+            quality:"Tập 12-Vietsub",
+            title:"Cẩm Nguyệt Như Ca"
+        },
+        {
+            idphim:17,
+            img:dataImgs.anhPhim,
+            quality:"Tập 25-Vietsub",
+            title:"Phàm Nhân Tu Tiên Truyện"
+        },
+        {
+            idphim:18,
             img:dataImgs.anhPhim,
             quality:"Tập 12-Vietsub",
             title:"Thế Giới Không Đồng"
@@ -373,6 +442,72 @@ export const dataPhimChieuRap =[
         },
         {
             idphim:7,
+            img:dataImgs.anhPhim,
+            quality:"HD-Vietsub",
+            title:"M3GAN 2.0"
+        },
+        {   
+            idphim:8,
+            img:dataImgs.anhPhim,
+            quality:"CAM-Vietsub",
+            title:"Bộ Tứ Siêu Đẳng"
+        },
+        {
+            idphim:9,
+            img:dataImgs.anhPhim,
+            quality:"HD-Vietsub",
+            title:"Phong Thần 2"
+        },
+        {
+            idphim:10,
+            img:dataImgs.anhPhim,
+            quality:"HD-Vietsub",
+            title:"Giờ Thả Máu"
+        },
+        {
+            idphim:11,
+            img:dataImgs.anhPhim,
+            quality:"HD-Vietsub",
+            title:"Buôn Bán Thần Thánh"
+        },
+        {
+            idphim:12,
+            img:dataImgs.anhPhim,
+            quality:"TS-Vietsub",
+            title:"Superman"
+        },
+        {
+            idphim:13,
+            img:dataImgs.anhPhim,
+            quality:"HD-Vietsub",
+            title:"Bí Kíp Luyện Rồng"
+        },
+        {
+            idphim:14,
+            img:dataImgs.anhPhim,
+            quality:"HD-Vietsub",
+            title:"M3GAN 2.0"
+        },
+        {
+            idphim:15,
+            img:dataImgs.anhPhim,
+            quality:"HD-Vietsub",
+            title:"Buôn Bán Thần Thánh"
+        },
+        {
+            idphim:16,
+            img:dataImgs.anhPhim,
+            quality:"TS-Vietsub",
+            title:"Superman"
+        },
+        {
+            idphim:17,
+            img:dataImgs.anhPhim,
+            quality:"HD-Vietsub",
+            title:"Bí Kíp Luyện Rồng"
+        },
+        {
+            idphim:18,
             img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"M3GAN 2.0"
