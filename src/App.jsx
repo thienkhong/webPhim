@@ -24,7 +24,7 @@ function App() {
         <Route path="/quocgia" element={<MainContentPhim/>}/>
         <Route path="/namphathanh" element={<MainContentPhim />} /> */}
         <Route path="/phimchieurap" element={<PhimChieuRap />} />
-        <Route path="/trailer" element={<MainContentPhim />} />
+        {/* <Route path="/trailer" element={<MainContentPhim />} /> */}
         <Route path="/topphim" element={<TopPhim />} />
         {/* Thêm các Route khác nếu cần */}
       </Routes>

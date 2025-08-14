@@ -1,6 +1,7 @@
 import { dataPhimDeCu, dataPhimLe, dataPhimChieuRap, dataPhimBoMoi,dataPhimThinhHanh,dataPhimMoiSapChieu } from '../../data'
 import SectionPhimDeCu from "./section/sectionPhimDeCu";
 import SectionPhim from "./section/Section";
+import SectionPagi from './section/SectionPagi';
 
 export default function MainContent() {
     return (
@@ -34,15 +35,7 @@ export default function MainContent() {
             <SectionPhim key={section.id} dataPhimLe={section}/>
         ))}
 
-        <section className="pagination">
-            <a href="#">1</a>
-            <a href="#">2</a>
-            <a href="#">3</a>
-            <a href="#">4</a>
-            <a href="#">5</a>
-            <span>...</span>
-            <a href="#"><i className="fas fa-chevron-right"></i></a>
-        </section>
+        <SectionPagi/>
     </main>
     )
 }

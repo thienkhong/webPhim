@@ -1,5 +1,6 @@
 import { dataPhimLe } from "../../../data"
 import SectionRouter from "../section/SectionRouter"
+import SectionPagi from "../section/SectionPagi"
 
 export default function PhimLe (){
     return (
@@ -7,6 +8,7 @@ export default function PhimLe (){
             {dataPhimLe.map((section)=>(
                 <SectionRouter key={section.id} dataPhimLe={section}/>
             ))}
+            <SectionPagi/>
         </main>
     )
 }

@@ -13,7 +13,7 @@ export default function Header(){
                     <li><Link to="/quocgia">QUỐC GIA</Link></li>
                     <li><Link to="/namphathanh">NĂM PHÁT HÀNH</Link></li> */}
                     <li><Link to="/phimchieurap">PHIM CHIẾU RẠP</Link></li>
-                    <li><Link to="/trailer">TRAILER</Link></li>
+                    {/* <li><Link to="/trailer">TRAILER</Link></li> */}
                     <li><Link to="/topphim">TOP PHIM</Link></li>
                 </ul>
             </nav>

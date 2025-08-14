@@ -1,4 +1,4 @@
-export default function SectionRouter({dataPhimLe,dataPhimBoMoi,dataPhimChieuRap}){
+export default function SectionPhimLe({dataPhimLe,dataPhimBoMoi,dataPhimChieuRap}){
     return (
         <section className="movie-section newly-updated-singles">
             <div className="section-header">

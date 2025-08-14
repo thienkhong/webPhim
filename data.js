@@ -49,6 +49,66 @@ export const dataPhimDeCu = [
             img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"Huyệt Ấn Truy Hồn"
+        },
+        {
+            idphim:9,
+            img:dataImgs.anhPhim,
+            quality:"HD-Vietsub",
+            title:"Phong Thần 2"
+        },
+        {
+            idphim:10,
+            img:dataImgs.anhPhim,
+            quality:"Tập 4-Vietsub",
+            title:"Wednesday (Phần 2)"
+        },
+        {
+            idphim:11,
+            img:dataImgs.anhPhim,
+            quality:"HD-Vietsub",
+            title:"Na Tra 2"
+        },
+        {
+            idphim:12,
+            img:dataImgs.anhPhim,
+            quality:"HD-Vietsub",
+            title:"Thế Giới Không Đồng"
+        },
+        {
+            idphim:13,
+            img:dataImgs.anhPhim,
+            quality:"HD-Vietsub",
+            title:"Huyệt Ấn Truy Hồn"
+        },
+        {
+            idphim:14,
+            img:dataImgs.anhPhim,
+            quality:"HD-Vietsub",
+            title:"Phong Thần 2"
+        },
+        {
+            idphim:15,
+            img:dataImgs.anhPhim,
+            quality:"Tập 4-Vietsub",
+            title:"Wednesday (Phần 2)"
+        },
+        {
+            idphim:16,
+            img:dataImgs.anhPhim,
+            quality:"HD-Vietsub",
+            title:"Na Tra 2"
+        },
+        {
+            idphim:17,
+            img:dataImgs.anhPhim,
+            quality:"HD-Vietsub",
+            title:"Thế Giới Không Đồng"
+        },
+        {
+            idphim:18,
+            img:dataImgs.anhPhim,
+            quality:"HD-Vietsub",
+            title:"Huyệt Ấn Truy Hồn"
         }
     ]},
 ]
@@ -118,6 +178,66 @@ export const dataPhimLe =[
         },
         {
             idphim:8,
+            img:dataImgs.anhPhim,
+            quality:"HD-Vietsub",
+            title:"Huyệt Ấn Truy Hồn"
+        },
+        {   
+            idphim:9,
+            img:dataImgs.anhPhim,
+            quality:"HD-Vietsub",
+            title:"Blood Brothers"
+        },
+        {
+            idphim:10,
+            img:dataImgs.anhPhim,
+            quality:"HD-Vietsub",
+            title:"Giờ Thả Máu"
+        },
+        {
+            idphim:11,
+            img:dataImgs.anhPhim,
+            quality:"HD-Vietsub",
+            title:"Phi Vụ Kim Cương"
+        },
+        {
+            idphim:12,
+            img:dataImgs.anhPhim,
+            quality:"HD-Vietsub",
+            title:"Phong Thần 2"
+        },
+        {
+            idphim:13,
+            img:dataImgs.anhPhim,
+            quality:"HD-Vietsub",
+            title:"Buôn Bán Thần Thánh"
+        },
+        {
+            idphim:14,
+            img:dataImgs.anhPhim,
+            quality:"HD-Vietsub",
+            title:"Na Tra 2"
+        },
+        {
+            idphim:15,
+            img:dataImgs.anhPhim,
+            quality:"HD-Vietsub",
+            title:"Thế Giới Không Đồng"
+        },
+        {
+            idphim:16,
+            img:dataImgs.anhPhim,
+            quality:"HD-Vietsub",
+            title:"Huyệt Ấn Truy Hồn"
+        },
+        {
+            idphim:17,
+            img:dataImgs.anhPhim,
+            quality:"HD-Vietsub",
+            title:"Thế Giới Không Đồng"
+        },
+        {
+            idphim:18,
             img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"Huyệt Ấn Truy Hồn"
