@@ -4,109 +4,109 @@ export const dataPhimDeCu = [
     {title:"Phim Đề Cử",
     flim:[
         {   
-            idphim:1,
+            idphim:"PhoLuatSeoCho",
             img:dataImgs.anhPhim,
             quality:"Hoàn tất(12/12)",
             title:"Phó Luật Seocho"
         },
         {
-            idphim:2,
+            idphim:"HoaSonLuanKiem",
             img:dataImgs.anhPhim,
             quality:"Tập 4-Vietsub",
             title:"Hoa Sơn Luận Kiếm"
         },
         {
-            idphim:3,
+            idphim:"PhamNhanTuTien...",
             img:dataImgs.anhPhim,
             quality:"Tập 25-Vietsub",
             title:"Phàm Nhân Tu Tiên ..."
         },
         {
-            idphim:4,
+            idphim:"PhongThan2",
             img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"Phong Thần 2"
         },
         {
-            idphim:5,
+            idphim:"Wednesday2",
             img:dataImgs.anhPhim,
             quality:"Tập 4-Vietsub",
             title:"Wednesday (Phần 2)"
         },
         {
-            idphim:6,
+            idphim:"NaTra2",
             img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"Na Tra 2"
         },
         {
-            idphim:7,
+            idphim:"TheGioiKhongDong",
             img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"Thế Giới Không Đồng"
         },
         {
-            idphim:8,
+            idphim:"HuyetAnTruyHon",
             img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"Huyệt Ấn Truy Hồn"
         },
         {
-            idphim:9,
+            idphim:"PhongThan",
             img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
-            title:"Phong Thần 2"
+            title:"Phong Thần"
         },
         {
-            idphim:10,
+            idphim:"Wednesday2",
             img:dataImgs.anhPhim,
             quality:"Tập 4-Vietsub",
             title:"Wednesday (Phần 2)"
         },
         {
-            idphim:11,
+            idphim:"NaTra2",
             img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"Na Tra 2"
         },
         {
-            idphim:12,
+            idphim:"TheGioiKhongDong",
             img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"Thế Giới Không Đồng"
         },
         {
-            idphim:13,
+            idphim:"HuyetAnTruyHon",
             img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"Huyệt Ấn Truy Hồn"
         },
         {
-            idphim:14,
+            idphim:"phongthan2",
             img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"Phong Thần 2"
         },
         {
-            idphim:15,
+            idphim:"wednesday2",
             img:dataImgs.anhPhim,
             quality:"Tập 4-Vietsub",
             title:"Wednesday (Phần 2)"
         },
         {
-            idphim:16,
+            idphim:"natra2",
             img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"Na Tra 2"
         },
         {
-            idphim:17,
+            idphim:"thegioikhongdong",
             img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"Thế Giới Không Đồng"
         },
         {
-            idphim:18,
+            idphim:"huyetantruyhon",
             img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"Huyệt Ấn Truy Hồn"
@@ -119,127 +119,127 @@ export const dataPhimLe =[
         title: "PHIM LẺ MỚI CẬP NHẬT",
         list:[
             {
-                id:1,
+                id:"hanhdong",
                 title:"Hành động",
             },
             {
-                id:1,
+                id:"hoathinh",
                 title:"Hoạt hình",
             },
             {
-                id:1,
+                id:"kinhdi",
                 title:"Kinh dị",
             },
             {
-                id:1,
+                id:"haihuoc",
                 title:"Hài hước",
             }
         ],
         flim:[
         {   
-            idphim:1,
+            idphim:"PhoLuatSeoCho",
             img:dataImgs.anhPhim,
-            quality:"HD-Vietsub",
-            title:"Blood Brothers"
+            quality:"Hoàn tất(12/12)",
+            title:"Phó Luật Seocho"
         },
         {
-            idphim:2,
+            idphim:"HoaSonLuanKiem",
             img:dataImgs.anhPhim,
-            quality:"HD-Vietsub",
-            title:"Giờ Thả Máu"
+            quality:"Tập 4-Vietsub",
+            title:"Hoa Sơn Luận Kiếm"
         },
         {
-            idphim:3,
+            idphim:"PhamNhanTuTien...",
             img:dataImgs.anhPhim,
-            quality:"HD-Vietsub",
-            title:"Phi Vụ Kim Cương"
+            quality:"Tập 25-Vietsub",
+            title:"Phàm Nhân Tu Tiên ..."
         },
         {
-            idphim:4,
+            idphim:"PhongThan2",
             img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"Phong Thần 2"
         },
         {
-            idphim:5,
+            idphim:"Wednesday2",
             img:dataImgs.anhPhim,
-            quality:"HD-Vietsub",
-            title:"Buôn Bán Thần Thánh"
+            quality:"Tập 4-Vietsub",
+            title:"Wednesday (Phần 2)"
         },
         {
-            idphim:6,
+            idphim:"NaTra2",
             img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"Na Tra 2"
         },
         {
-            idphim:7,
+            idphim:"TheGioiKhongDong",
             img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"Thế Giới Không Đồng"
         },
         {
-            idphim:8,
+            idphim:"HuyetAnTruyHon",
             img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"Huyệt Ấn Truy Hồn"
         },
-        {   
-            idphim:9,
+        {
+            idphim:"PhongThan",
             img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
-            title:"Blood Brothers"
+            title:"Phong Thần"
         },
         {
-            idphim:10,
+            idphim:"Wednesday2",
+            img:dataImgs.anhPhim,
+            quality:"Tập 4-Vietsub",
+            title:"Wednesday (Phần 2)"
+        },
+        {
+            idphim:"NaTra2",
             img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
-            title:"Giờ Thả Máu"
+            title:"Na Tra 2"
         },
         {
-            idphim:11,
+            idphim:"TheGioiKhongDong",
             img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
-            title:"Phi Vụ Kim Cương"
+            title:"Thế Giới Không Đồng"
         },
         {
-            idphim:12,
+            idphim:"HuyetAnTruyHon",
+            img:dataImgs.anhPhim,
+            quality:"HD-Vietsub",
+            title:"Huyệt Ấn Truy Hồn"
+        },
+        {
+            idphim:"phongthan2",
             img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"Phong Thần 2"
         },
         {
-            idphim:13,
+            idphim:"wednesday2",
             img:dataImgs.anhPhim,
-            quality:"HD-Vietsub",
-            title:"Buôn Bán Thần Thánh"
+            quality:"Tập 4-Vietsub",
+            title:"Wednesday (Phần 2)"
         },
         {
-            idphim:14,
+            idphim:"natra2",
             img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"Na Tra 2"
         },
         {
-            idphim:15,
+            idphim:"thegioikhongdong",
             img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"Thế Giới Không Đồng"
         },
         {
-            idphim:16,
-            img:dataImgs.anhPhim,
-            quality:"HD-Vietsub",
-            title:"Huyệt Ấn Truy Hồn"
-        },
-        {
-            idphim:17,
-            img:dataImgs.anhPhim,
-            quality:"HD-Vietsub",
-            title:"Thế Giới Không Đồng"
-        },
-        {
-            idphim:18,
+            idphim:"huyetantruyhon",
             img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"Huyệt Ấn Truy Hồn"
@@ -271,112 +271,112 @@ export const dataPhimBoMoi =[
         ],
         flim:[
         {   
-            idphim:1,
+            idphim:"PhoLuatSeoCho",
             img:dataImgs.anhPhim,
-            quality:"Tập 6-Vietsub",
-            title:"Đội Tuyển Kỳ Tích"
-        },
-        {
-            idphim:2,
-            img:dataImgs.anhPhim,
-            quality:"Hoàn Tất(12/12)",
+            quality:"Hoàn tất(12/12)",
             title:"Phó Luật Seocho"
         },
         {
-            idphim:3,
+            idphim:"HoaSonLuanKiem",
             img:dataImgs.anhPhim,
             quality:"Tập 4-Vietsub",
-            title:"Giấc Mơ Người Luật Sư"
-        },
-        {
-            idphim:4,
-            img:dataImgs.anhPhim,
-            quality:"Tập 9-Vietsub",
             title:"Hoa Sơn Luận Kiếm"
         },
         {
-            idphim:5,
-            img:dataImgs.anhPhim,
-            quality:"Tập 12-Vietsub",
-            title:"Cẩm Nguyệt Như Ca"
-        },
-        {
-            idphim:6,
+            idphim:"PhamNhanTuTien...",
             img:dataImgs.anhPhim,
             quality:"Tập 25-Vietsub",
-            title:"Phàm Nhân Tu Tiên Truyện"
+            title:"Phàm Nhân Tu Tiên ..."
         },
         {
-            idphim:7,
+            idphim:"PhongThan2",
             img:dataImgs.anhPhim,
-            quality:"Tập 12-Vietsub",
-            title:"Thế Giới Không Đồng"
-        },
-        {   
-            idphim:8,
-            img:dataImgs.anhPhim,
-            quality:"Tập 6-Vietsub",
-            title:"Đội Tuyển Kỳ Tích"
+            quality:"HD-Vietsub",
+            title:"Phong Thần 2"
         },
         {
-            idphim:9,
-            img:dataImgs.anhPhim,
-            quality:"Hoàn Tất(12/12)",
-            title:"Phó Luật Seocho"
-        },
-        {
-            idphim:10,
+            idphim:"Wednesday2",
             img:dataImgs.anhPhim,
             quality:"Tập 4-Vietsub",
-            title:"Giấc Mơ Người Luật Sư"
+            title:"Wednesday (Phần 2)"
         },
         {
-            idphim:11,
+            idphim:"NaTra2",
             img:dataImgs.anhPhim,
-            quality:"Tập 9-Vietsub",
-            title:"Hoa Sơn Luận Kiếm"
+            quality:"HD-Vietsub",
+            title:"Na Tra 2"
         },
         {
-            idphim:12,
+            idphim:"TheGioiKhongDong",
             img:dataImgs.anhPhim,
-            quality:"Tập 12-Vietsub",
-            title:"Cẩm Nguyệt Như Ca"
-        },
-        {
-            idphim:13,
-            img:dataImgs.anhPhim,
-            quality:"Tập 25-Vietsub",
-            title:"Phàm Nhân Tu Tiên Truyện"
-        },
-        {
-            idphim:14,
-            img:dataImgs.anhPhim,
-            quality:"Tập 12-Vietsub",
+            quality:"HD-Vietsub",
             title:"Thế Giới Không Đồng"
         },
         {
-            idphim:15,
+            idphim:"HuyetAnTruyHon",
             img:dataImgs.anhPhim,
-            quality:"Tập 9-Vietsub",
-            title:"Hoa Sơn Luận Kiếm"
+            quality:"HD-Vietsub",
+            title:"Huyệt Ấn Truy Hồn"
         },
         {
-            idphim:16,
+            idphim:"PhongThan",
             img:dataImgs.anhPhim,
-            quality:"Tập 12-Vietsub",
-            title:"Cẩm Nguyệt Như Ca"
+            quality:"HD-Vietsub",
+            title:"Phong Thần"
         },
         {
-            idphim:17,
+            idphim:"Wednesday2",
             img:dataImgs.anhPhim,
-            quality:"Tập 25-Vietsub",
-            title:"Phàm Nhân Tu Tiên Truyện"
+            quality:"Tập 4-Vietsub",
+            title:"Wednesday (Phần 2)"
         },
         {
-            idphim:18,
+            idphim:"NaTra2",
             img:dataImgs.anhPhim,
-            quality:"Tập 12-Vietsub",
+            quality:"HD-Vietsub",
+            title:"Na Tra 2"
+        },
+        {
+            idphim:"TheGioiKhongDong",
+            img:dataImgs.anhPhim,
+            quality:"HD-Vietsub",
             title:"Thế Giới Không Đồng"
+        },
+        {
+            idphim:"HuyetAnTruyHon",
+            img:dataImgs.anhPhim,
+            quality:"HD-Vietsub",
+            title:"Huyệt Ấn Truy Hồn"
+        },
+        {
+            idphim:"phongthan2",
+            img:dataImgs.anhPhim,
+            quality:"HD-Vietsub",
+            title:"Phong Thần 2"
+        },
+        {
+            idphim:"wednesday2",
+            img:dataImgs.anhPhim,
+            quality:"Tập 4-Vietsub",
+            title:"Wednesday (Phần 2)"
+        },
+        {
+            idphim:"natra2",
+            img:dataImgs.anhPhim,
+            quality:"HD-Vietsub",
+            title:"Na Tra 2"
+        },
+        {
+            idphim:"thegioikhongdong",
+            img:dataImgs.anhPhim,
+            quality:"HD-Vietsub",
+            title:"Thế Giới Không Đồng"
+        },
+        {
+            idphim:"huyetantruyhon",
+            img:dataImgs.anhPhim,
+            quality:"HD-Vietsub",
+            title:"Huyệt Ấn Truy Hồn"
         }
     ]
     }
@@ -405,112 +405,112 @@ export const dataPhimChieuRap =[
         ],
         flim:[
         {   
-            idphim:1,
+            idphim:"PhoLuatSeoCho",
             img:dataImgs.anhPhim,
-            quality:"CAM-Vietsub",
-            title:"Bộ Tứ Siêu Đẳng"
+            quality:"Hoàn tất(12/12)",
+            title:"Phó Luật Seocho"
         },
         {
-            idphim:2,
+            idphim:"HoaSonLuanKiem",
+            img:dataImgs.anhPhim,
+            quality:"Tập 4-Vietsub",
+            title:"Hoa Sơn Luận Kiếm"
+        },
+        {
+            idphim:"PhamNhanTuTien...",
+            img:dataImgs.anhPhim,
+            quality:"Tập 25-Vietsub",
+            title:"Phàm Nhân Tu Tiên ..."
+        },
+        {
+            idphim:"PhongThan2",
             img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"Phong Thần 2"
         },
         {
-            idphim:3,
+            idphim:"Wednesday2",
+            img:dataImgs.anhPhim,
+            quality:"Tập 4-Vietsub",
+            title:"Wednesday (Phần 2)"
+        },
+        {
+            idphim:"NaTra2",
             img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
-            title:"Giờ Thả Máu"
+            title:"Na Tra 2"
         },
         {
-            idphim:4,
+            idphim:"TheGioiKhongDong",
             img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
-            title:"Buôn Bán Thần Thánh"
+            title:"Thế Giới Không Đồng"
         },
         {
-            idphim:5,
-            img:dataImgs.anhPhim,
-            quality:"TS-Vietsub",
-            title:"Superman"
-        },
-        {
-            idphim:6,
+            idphim:"HuyetAnTruyHon",
             img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
-            title:"Bí Kíp Luyện Rồng"
+            title:"Huyệt Ấn Truy Hồn"
         },
         {
-            idphim:7,
+            idphim:"PhongThan",
             img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
-            title:"M3GAN 2.0"
-        },
-        {   
-            idphim:8,
-            img:dataImgs.anhPhim,
-            quality:"CAM-Vietsub",
-            title:"Bộ Tứ Siêu Đẳng"
+            title:"Phong Thần"
         },
         {
-            idphim:9,
+            idphim:"Wednesday2",
+            img:dataImgs.anhPhim,
+            quality:"Tập 4-Vietsub",
+            title:"Wednesday (Phần 2)"
+        },
+        {
+            idphim:"NaTra2",
+            img:dataImgs.anhPhim,
+            quality:"HD-Vietsub",
+            title:"Na Tra 2"
+        },
+        {
+            idphim:"TheGioiKhongDong",
+            img:dataImgs.anhPhim,
+            quality:"HD-Vietsub",
+            title:"Thế Giới Không Đồng"
+        },
+        {
+            idphim:"HuyetAnTruyHon",
+            img:dataImgs.anhPhim,
+            quality:"HD-Vietsub",
+            title:"Huyệt Ấn Truy Hồn"
+        },
+        {
+            idphim:"phongthan2",
             img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"Phong Thần 2"
         },
         {
-            idphim:10,
+            idphim:"wednesday2",
+            img:dataImgs.anhPhim,
+            quality:"Tập 4-Vietsub",
+            title:"Wednesday (Phần 2)"
+        },
+        {
+            idphim:"natra2",
             img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
-            title:"Giờ Thả Máu"
+            title:"Na Tra 2"
         },
         {
-            idphim:11,
+            idphim:"thegioikhongdong",
             img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
-            title:"Buôn Bán Thần Thánh"
+            title:"Thế Giới Không Đồng"
         },
         {
-            idphim:12,
-            img:dataImgs.anhPhim,
-            quality:"TS-Vietsub",
-            title:"Superman"
-        },
-        {
-            idphim:13,
+            idphim:"huyetantruyhon",
             img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
-            title:"Bí Kíp Luyện Rồng"
-        },
-        {
-            idphim:14,
-            img:dataImgs.anhPhim,
-            quality:"HD-Vietsub",
-            title:"M3GAN 2.0"
-        },
-        {
-            idphim:15,
-            img:dataImgs.anhPhim,
-            quality:"HD-Vietsub",
-            title:"Buôn Bán Thần Thánh"
-        },
-        {
-            idphim:16,
-            img:dataImgs.anhPhim,
-            quality:"TS-Vietsub",
-            title:"Superman"
-        },
-        {
-            idphim:17,
-            img:dataImgs.anhPhim,
-            quality:"HD-Vietsub",
-            title:"Bí Kíp Luyện Rồng"
-        },
-        {
-            idphim:18,
-            img:dataImgs.anhPhim,
-            quality:"HD-Vietsub",
-            title:"M3GAN 2.0"
+            title:"Huyệt Ấn Truy Hồn"
         }
     ]
     }
@@ -531,40 +531,112 @@ export const dataPhimThinhHanh =[
         ],
         flim:[
         {   
-            idphim:1,
+            idphim:"PhoLuatSeoCho",
             img:dataImgs.anhPhim,
-            quality:"Tập 25-Vietsub",
-            title:"Phàm Nhân Tu Tiên Truyện"
+            quality:"Hoàn tất(12/12)",
+            title:"Phó Luật Seocho"
         },
         {
-            idphim:2,
+            idphim:"HoaSonLuanKiem",
+            img:dataImgs.anhPhim,
+            quality:"Tập 4-Vietsub",
+            title:"Hoa Sơn Luận Kiếm"
+        },
+        {
+            idphim:"PhamNhanTuTien...",
+            img:dataImgs.anhPhim,
+            quality:"Tập 25-Vietsub",
+            title:"Phàm Nhân Tu Tiên ..."
+        },
+        {
+            idphim:"PhongThan2",
             img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"Phong Thần 2"
         },
         {
-            idphim:3,
-            img:dataImgs.anhPhim,
-            quality:"Tập 12-Vietsub",
-            title:"Cẩm Nguyệt Như Ca"
-        },
-        {
-            idphim:4,
+            idphim:"Wednesday2",
             img:dataImgs.anhPhim,
             quality:"Tập 4-Vietsub",
             title:"Wednesday (Phần 2)"
         },
         {
-            idphim:5,
+            idphim:"NaTra2",
             img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"Na Tra 2"
         },
         {
-            idphim:6,
+            idphim:"TheGioiKhongDong",
             img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
-            title:"Hoa Sơn Luận Kiếm"
+            title:"Thế Giới Không Đồng"
+        },
+        {
+            idphim:"HuyetAnTruyHon",
+            img:dataImgs.anhPhim,
+            quality:"HD-Vietsub",
+            title:"Huyệt Ấn Truy Hồn"
+        },
+        {
+            idphim:"PhongThan",
+            img:dataImgs.anhPhim,
+            quality:"HD-Vietsub",
+            title:"Phong Thần"
+        },
+        {
+            idphim:"Wednesday2",
+            img:dataImgs.anhPhim,
+            quality:"Tập 4-Vietsub",
+            title:"Wednesday (Phần 2)"
+        },
+        {
+            idphim:"NaTra2",
+            img:dataImgs.anhPhim,
+            quality:"HD-Vietsub",
+            title:"Na Tra 2"
+        },
+        {
+            idphim:"TheGioiKhongDong",
+            img:dataImgs.anhPhim,
+            quality:"HD-Vietsub",
+            title:"Thế Giới Không Đồng"
+        },
+        {
+            idphim:"HuyetAnTruyHon",
+            img:dataImgs.anhPhim,
+            quality:"HD-Vietsub",
+            title:"Huyệt Ấn Truy Hồn"
+        },
+        {
+            idphim:"phongthan2",
+            img:dataImgs.anhPhim,
+            quality:"HD-Vietsub",
+            title:"Phong Thần 2"
+        },
+        {
+            idphim:"wednesday2",
+            img:dataImgs.anhPhim,
+            quality:"Tập 4-Vietsub",
+            title:"Wednesday (Phần 2)"
+        },
+        {
+            idphim:"natra2",
+            img:dataImgs.anhPhim,
+            quality:"HD-Vietsub",
+            title:"Na Tra 2"
+        },
+        {
+            idphim:"thegioikhongdong",
+            img:dataImgs.anhPhim,
+            quality:"HD-Vietsub",
+            title:"Thế Giới Không Đồng"
+        },
+        {
+            idphim:"huyetantruyhon",
+            img:dataImgs.anhPhim,
+            quality:"HD-Vietsub",
+            title:"Huyệt Ấn Truy Hồn"
         }
     ]
     }

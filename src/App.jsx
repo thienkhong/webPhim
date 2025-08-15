@@ -7,7 +7,7 @@ import PhimBo from "./component/MainSection/PhimBo"
 import PhimChieuRap from "./component/MainSection/PhimChieuRap"
 import PhimLe from "./component/MainSection/PhimLe"
 import TopPhim from "./component/MainSection/TopPhim"
-
+import MovieDetail from './component/MovieDetail'; // Thêm dòng này
 
 function App() {
 
@@ -26,6 +26,7 @@ function App() {
         {/* <Route path="/trailer" element={<MainContentPhim />} /> */}
         <Route path="/topphim" element={<TopPhim />} />
         {/* Thêm các Route khác nếu cần */}
+        <Route path="/phim/:idphim" element={<MovieDetail />} />
       </Routes>
       <Footer/>
     </Router>
