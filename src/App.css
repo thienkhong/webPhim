@@ -67,6 +67,7 @@ body {
 }
 
 .search-box input {
+    font-size: 15px;
     border: none;
     background-color: transparent;
     color: #fff;
@@ -112,7 +113,7 @@ body {
 
 .section-header h2 {
     color: #ff8a00;
-    font-size: 24px;
+    font-size: 20px;
     padding-left: 10px;
     margin: 0;
 }
@@ -287,4 +288,113 @@ body {
     font-size: 12px;
 }
 
-/* CSS ONLY PHIM */
+/* CSS PHIM DE CU */
+.sectionPhimLe {
+          position: relative;
+          padding: 20px 0;
+          overflow: hidden;
+        }
+
+        .sectionPhimLeHeader {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 12px;
+        }
+
+        .sectionPhimLeHeader h2 {
+          font-size: 20px;
+          font-weight: bold;
+          color: #ff8a00;
+        }
+
+        .phimSlider {
+          position: relative;.phimQuality
+        }
+
+        .phimList {
+          display: flex;
+          gap: 15px;
+          overflow-x: auto;
+          scroll-behavior: smooth;
+          padding: 10px 0;
+        }
+
+        .phimList::-webkit-scrollbar {
+          display: none;
+        }
+
+        .phimItem {
+          position: relative;
+          flex-shrink: 0;
+          width: 280px;
+          height: 160px;
+          border-radius: 8px;
+          overflow: hidden;
+          background: #222;
+          text-decoration: none;
+          color: #fff;
+          transition: transform 0.3s;
+        }
+
+        .phimItem:hover {
+          transform: scale(1.05);
+        }
+
+        .phimItem img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+
+        .phimQuality {
+          position: absolute;
+          top: 8px;
+          left: 8px;
+          background: #ff8a00;
+          padding: 2px 6px;
+          font-size: 12px;
+          font-weight: bold;
+          border-radius: 4px;
+          color: #fff;
+        }
+
+        .phimTitle {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          padding: 8px;
+          font-size: 14px;
+          font-weight: bold;
+          /* background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent); */
+          background: rgba(0, 0, 0, 0.5);
+        }
+
+        .phimNavBtn {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          width: 40px;
+          height: 60px;
+          background: rgba(0, 0, 0, 0.6);
+          border: none;
+          color: #fff;
+          font-size: 24px;
+          cursor: pointer;
+          z-index: 10;
+          border-radius: 4px;
+          transition: background 0.2s;
+        }
+
+        .phimNavBtn:hover {
+          background: rgba(0, 0, 0, 0.8);
+        }
+
+        .phimNavLeft {
+          left: 0;
+        }
+
+        .phimNavRight {
+          right: 0;
+        }

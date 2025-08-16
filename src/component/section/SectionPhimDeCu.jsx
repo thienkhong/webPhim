@@ -1,5 +1,4 @@
 import { useRef, useEffect } from "react";
-import styles from "./SectionPhimDeCu.module.css";
 
 export default function SectionPhimLe({ dataPhimDeCu }) {
   const movieListRef = useRef(null);
@@ -13,11 +12,30 @@ export default function SectionPhimLe({ dataPhimDeCu }) {
 
     if (!movieList || !btnLeft || !btnRight) return;
 
+    const scrollStep = 1475; // bước cuộn
+
     const handleLeft = () => {
-      movieList.scrollBy({ left: -220, behavior: "smooth" });
+      if (movieList.scrollLeft === 0) {
+        // nếu đang ở đầu -> nhảy về cuối
+        movieList.scrollTo({
+          left: movieList.scrollWidth,
+          behavior: "smooth",
+        });
+      } else {
+        movieList.scrollBy({ left: -scrollStep, behavior: "smooth" });
+      }
     };
+
     const handleRight = () => {
-      movieList.scrollBy({ left: 220, behavior: "smooth" });
+      if (
+        movieList.scrollLeft + movieList.clientWidth >=
+        movieList.scrollWidth
+      ) {
+        // nếu đang ở cuối -> nhảy về đầu
+        movieList.scrollTo({ left: 0, behavior: "smooth" });
+      } else {
+        movieList.scrollBy({ left: scrollStep, behavior: "smooth" });
+      }
     };
 
     btnLeft.addEventListener("click", handleLeft);
@@ -30,33 +48,33 @@ export default function SectionPhimLe({ dataPhimDeCu }) {
   }, []);
 
   return (
-    <section className="movie-section">
-      <div className="section-header">
+    <section className="sectionPhimLe">
+      <div className="sectionPhimLeHeader">
         <h2>{dataPhimDeCu.title}</h2>
       </div>
 
-      <div className="movie-slider">
-        <button className="nav-btn nav-left" ref={btnLeftRef}>
+      <div className="phimSlider">
+        <button className="phimNavBtn phimNavLeft" ref={btnLeftRef}>
           &#10094;
         </button>
 
-        <div className="movie-list" ref={movieListRef}>
+        <div className="phimList" ref={movieListRef}>
           {dataPhimDeCu.flim.map((item) => (
             <a
               key={item.idphim}
               href={`/phim/${item.idphim}`}
-              className="movie-item"
+              className="phimItem"
             >
-              <span className="movie-quality">{item.quality}</span>
+              <span className="phimQuality">{item.quality}</span>
               <img src={item.img} alt={item.title} />
-              <div className="movie-title">
+              <div className="phimTitle">
                 <p>{item.title}</p>
               </div>
             </a>
           ))}
         </div>
 
-        <button className="nav-btn nav-right" ref={btnRightRef}>
+        <button className="phimNavBtn phimNavRight" ref={btnRightRef}>
           &#10095;
         </button>
       </div>

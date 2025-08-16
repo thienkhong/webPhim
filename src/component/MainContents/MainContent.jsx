@@ -54,8 +54,6 @@ export default function MainContent() {
         {dataPhimMoiSapChieu.map((section)=>(
             <SectionPhim key={section.id} dataPhimLe={section}/>
         ))} */}
-
-        <SectionPagi/>
     </main>
     )
 }
