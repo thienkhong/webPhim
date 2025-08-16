@@ -1,14 +1,8 @@
 export default function SectionPhimLe({dataPhimLe,dataPhimBoMoi,dataPhimChieuRap}){
     return (
-        <section className="movie-section newly-updated-singles">
-            <div className="section-header">
+        <section className="movie-section max-width-1500">
+            <div className="section-header ">
                 <h2>{dataPhimLe.title}</h2>
-                {/* <div className="movie-category-nav" >
-                {dataPhimLe.list.map((item)=>(
-                        <a href="#" key={item.idphim}>{item.title}</a>
-                    ))}
-                    </div>
-                <a href="#" className="see-all">Xem tất cả <i className="fas fa-chevron-right"></i></a> */}
             </div>
             <div className="movie-list">
             {dataPhimLe.flim.map((item)=>(

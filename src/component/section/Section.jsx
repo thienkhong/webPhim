@@ -10,19 +10,18 @@ export default function SectionPhimLe({dataPhimDeCu,dataPhimLe,dataPhimChieuRap,
                     ))}
                 </div>
                 )}
-                <a href="#" className="see-all">Xem tất cả <i className="fas fa-chevron-right"></i></a>
+                <a href="/" className="see-all">Xem tất cả <i className="fas fa-chevron-right"></i></a>
             </div>
             <div className="movie-list">
-            {dataPhimLe.flim.map((item)=>(
-                <a href={`/phim/${item.idphim}`} className="movie-item">
+            {dataPhimLe.flim.map((item,index)=>(
+                <a href={`/phim/${item.idphim}`} className={`movie-item ${index === 0 ? 'big':''}`}>
+                    <span className="movie-quality">{item.quality}</span>
                     <img src={item.img} key={item.idphim} alt={item.title}/>
-                    <div className="movie-info">
-                        <span className="movie-quality">{item.quality}</span>
-                        <div className="movie-title">{item.title}</div>
+                    <div className="movie-title">
+                        <p>{item.title}</p>
                     </div>
                 </a>
-            ))}
-                
+            ))}  
             </div>
         </section>
     )

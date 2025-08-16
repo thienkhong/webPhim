@@ -4,7 +4,7 @@ import SectionRouter from "../section/SectionRouter"
 
 export default function PhimChieuRap (){
     return (
-        <main className="movie-grid-container">
+        <main className="main-content movie-grid-container">
             {dataPhimChieuRap.map((section)=>(
                 <SectionRouter key={section.id} dataPhimLe={section}/>
             ))}

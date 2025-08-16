@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 export default function Header(){
     return(
         <header className="header">
-        <div className="header-nav">
+        <div className="header-nav max-width-1500">
             <Link to="/" className="logo">PhimMoi</Link>
             <nav className="main-nav">
                 <ul>

@@ -4,7 +4,7 @@ import SectionPagi from "../section/SectionPagi"
 
 export default function PhimLe (){
     return (
-        <main className="movie-grid-container">
+        <main className="main-content movie-grid-container">
             {dataPhimLe.map((section)=>(
                 <SectionRouter key={section.id} dataPhimLe={section}/>
             ))}

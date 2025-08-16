@@ -1,12 +1,12 @@
 import './App.css'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import MainContent from './component/MainContent'
+import MainContent from './component/MainContents/MainContent';
 import Header from './component/Header'
 import Footer from './component/Footer'
-import PhimBo from "./component/MainSection/PhimBo"
-import PhimChieuRap from "./component/MainSection/PhimChieuRap"
-import PhimLe from "./component/MainSection/PhimLe"
-import TopPhim from "./component/MainSection/TopPhim"
+import PhimBo from "./component/MainContents/PhimBo"
+import PhimChieuRap from "./component/MainContents/PhimChieuRap"
+import PhimLe from "./component/MainContents/PhimLe"
+import TopPhim from "./component/MainContents/TopPhim"
 import MovieDetail from './component/MovieDetail'; // Thêm dòng này
 
 function App() {

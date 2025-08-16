@@ -1,7 +1,7 @@
 import { dataImgs } from './src/assets' 
 
 export const dataPhimDeCu = [
-    {title:"Phim Đề Cử",
+    {title:"PHIM ĐỀ CỬ",
     flim:[
         {   
             idphim:"PhoLuatSeoCho",
@@ -74,49 +74,13 @@ export const dataPhimDeCu = [
             img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"Thế Giới Không Đồng"
-        },
-        {
-            idphim:"HuyetAnTruyHon",
-            img:dataImgs.anhPhim,
-            quality:"HD-Vietsub",
-            title:"Huyệt Ấn Truy Hồn"
-        },
-        {
-            idphim:"phongthan2",
-            img:dataImgs.anhPhim,
-            quality:"HD-Vietsub",
-            title:"Phong Thần 2"
-        },
-        {
-            idphim:"wednesday2",
-            img:dataImgs.anhPhim,
-            quality:"Tập 4-Vietsub",
-            title:"Wednesday (Phần 2)"
-        },
-        {
-            idphim:"natra2",
-            img:dataImgs.anhPhim,
-            quality:"HD-Vietsub",
-            title:"Na Tra 2"
-        },
-        {
-            idphim:"thegioikhongdong",
-            img:dataImgs.anhPhim,
-            quality:"HD-Vietsub",
-            title:"Thế Giới Không Đồng"
-        },
-        {
-            idphim:"huyetantruyhon",
-            img:dataImgs.anhPhim,
-            quality:"HD-Vietsub",
-            title:"Huyệt Ấn Truy Hồn"
         }
     ]},
 ]
 
 export const dataPhimLe =[
     {
-        title: "PHIM LẺ MỚI CẬP NHẬT",
+        title: "PHIM LẺ MỚI",
         list:[
             {
                 id:"hanhdong",
@@ -207,42 +171,6 @@ export const dataPhimLe =[
             img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"Thế Giới Không Đồng"
-        },
-        {
-            idphim:"HuyetAnTruyHon",
-            img:dataImgs.anhPhim,
-            quality:"HD-Vietsub",
-            title:"Huyệt Ấn Truy Hồn"
-        },
-        {
-            idphim:"phongthan2",
-            img:dataImgs.anhPhim,
-            quality:"HD-Vietsub",
-            title:"Phong Thần 2"
-        },
-        {
-            idphim:"wednesday2",
-            img:dataImgs.anhPhim,
-            quality:"Tập 4-Vietsub",
-            title:"Wednesday (Phần 2)"
-        },
-        {
-            idphim:"natra2",
-            img:dataImgs.anhPhim,
-            quality:"HD-Vietsub",
-            title:"Na Tra 2"
-        },
-        {
-            idphim:"thegioikhongdong",
-            img:dataImgs.anhPhim,
-            quality:"HD-Vietsub",
-            title:"Thế Giới Không Đồng"
-        },
-        {
-            idphim:"huyetantruyhon",
-            img:dataImgs.anhPhim,
-            quality:"HD-Vietsub",
-            title:"Huyệt Ấn Truy Hồn"
         }
     ]
     }
@@ -250,7 +178,7 @@ export const dataPhimLe =[
 
 export const dataPhimBoMoi =[
     {
-        title: "PHIM BỘ MỚI CẬP NHẬT",
+        title: "PHIM BỘ MỚI",
         list:[
             {
                 id:1,
@@ -341,42 +269,6 @@ export const dataPhimBoMoi =[
             img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"Thế Giới Không Đồng"
-        },
-        {
-            idphim:"HuyetAnTruyHon",
-            img:dataImgs.anhPhim,
-            quality:"HD-Vietsub",
-            title:"Huyệt Ấn Truy Hồn"
-        },
-        {
-            idphim:"phongthan2",
-            img:dataImgs.anhPhim,
-            quality:"HD-Vietsub",
-            title:"Phong Thần 2"
-        },
-        {
-            idphim:"wednesday2",
-            img:dataImgs.anhPhim,
-            quality:"Tập 4-Vietsub",
-            title:"Wednesday (Phần 2)"
-        },
-        {
-            idphim:"natra2",
-            img:dataImgs.anhPhim,
-            quality:"HD-Vietsub",
-            title:"Na Tra 2"
-        },
-        {
-            idphim:"thegioikhongdong",
-            img:dataImgs.anhPhim,
-            quality:"HD-Vietsub",
-            title:"Thế Giới Không Đồng"
-        },
-        {
-            idphim:"huyetantruyhon",
-            img:dataImgs.anhPhim,
-            quality:"HD-Vietsub",
-            title:"Huyệt Ấn Truy Hồn"
         }
     ]
     }
@@ -475,42 +367,6 @@ export const dataPhimChieuRap =[
             img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"Thế Giới Không Đồng"
-        },
-        {
-            idphim:"HuyetAnTruyHon",
-            img:dataImgs.anhPhim,
-            quality:"HD-Vietsub",
-            title:"Huyệt Ấn Truy Hồn"
-        },
-        {
-            idphim:"phongthan2",
-            img:dataImgs.anhPhim,
-            quality:"HD-Vietsub",
-            title:"Phong Thần 2"
-        },
-        {
-            idphim:"wednesday2",
-            img:dataImgs.anhPhim,
-            quality:"Tập 4-Vietsub",
-            title:"Wednesday (Phần 2)"
-        },
-        {
-            idphim:"natra2",
-            img:dataImgs.anhPhim,
-            quality:"HD-Vietsub",
-            title:"Na Tra 2"
-        },
-        {
-            idphim:"thegioikhongdong",
-            img:dataImgs.anhPhim,
-            quality:"HD-Vietsub",
-            title:"Thế Giới Không Đồng"
-        },
-        {
-            idphim:"huyetantruyhon",
-            img:dataImgs.anhPhim,
-            quality:"HD-Vietsub",
-            title:"Huyệt Ấn Truy Hồn"
         }
     ]
     }
@@ -601,42 +457,6 @@ export const dataPhimThinhHanh =[
             img:dataImgs.anhPhim,
             quality:"HD-Vietsub",
             title:"Thế Giới Không Đồng"
-        },
-        {
-            idphim:"HuyetAnTruyHon",
-            img:dataImgs.anhPhim,
-            quality:"HD-Vietsub",
-            title:"Huyệt Ấn Truy Hồn"
-        },
-        {
-            idphim:"phongthan2",
-            img:dataImgs.anhPhim,
-            quality:"HD-Vietsub",
-            title:"Phong Thần 2"
-        },
-        {
-            idphim:"wednesday2",
-            img:dataImgs.anhPhim,
-            quality:"Tập 4-Vietsub",
-            title:"Wednesday (Phần 2)"
-        },
-        {
-            idphim:"natra2",
-            img:dataImgs.anhPhim,
-            quality:"HD-Vietsub",
-            title:"Na Tra 2"
-        },
-        {
-            idphim:"thegioikhongdong",
-            img:dataImgs.anhPhim,
-            quality:"HD-Vietsub",
-            title:"Thế Giới Không Đồng"
-        },
-        {
-            idphim:"huyetantruyhon",
-            img:dataImgs.anhPhim,
-            quality:"HD-Vietsub",
-            title:"Huyệt Ấn Truy Hồn"
         }
     ]
     }

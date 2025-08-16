@@ -1,7 +1,7 @@
 export default function Footer(){
     return(
         <footer class="footer">
-        <div class="footer-content">
+        <div class="footer-content max-width-1500">
             <div class="footer-col">
                 <h3>PhimMoi và Chill</h3>
                 <p>PhimMoi - Website xem phim trực tuyến chất lượng cao với tốc độ nhanh...</p>

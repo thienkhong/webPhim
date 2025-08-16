@@ -1,11 +1,12 @@
-import { dataPhimLe } from "../../../data"
+import { dataPhimBoMoi } from "../../../data"
 import SectionRouter from "../section/SectionRouter"
 import SectionPagi from "../section/SectionPagi"
 
-export default function PhimLe (){
+
+export default function PhimBo (){
     return (
-        <main className="movie-grid-container">
-            {dataPhimLe.map((section)=>(
+        <main className="main-content movie-grid-container">
+            {dataPhimBoMoi.map((section)=>(
                 <SectionRouter key={section.id} dataPhimLe={section}/>
             ))}
             <SectionPagi/>
