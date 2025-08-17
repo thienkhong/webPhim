@@ -13,7 +13,7 @@ export default function SectionPhimLe({dataPhimDeCu,dataPhimLe,dataPhimChieuRap,
                 <a href="/" className="see-all">Xem tất cả <i className="fas fa-chevron-right"></i></a>
             </div>
             <div className="movie-list">
-            {dataPhimLe.flim.map((item,index)=>(
+            {dataPhimLe.film.map((item,index)=>(
                 <a href={`/phim/${item.idphim}`} className={`movie-item ${index === 0 ? 'big':''}`}>
                     <span className="movie-quality">{item.quality}</span>
                     <img src={item.imgbig} key={item.idphim} alt={item.title}/>

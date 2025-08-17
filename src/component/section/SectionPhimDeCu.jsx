@@ -59,7 +59,7 @@ export default function SectionPhimLe({ dataPhimDeCu }) {
         </button>
 
         <div className="phimList" ref={movieListRef}>
-          {dataPhimDeCu.flim.map((item) => (
+          {dataPhimDeCu.film.map((item) => (
             <a
               key={item.idphim}
               href={`/phim/${item.idphim}`}

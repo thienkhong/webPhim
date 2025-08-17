@@ -5,7 +5,7 @@ export default function SectionPhimLe({dataPhimLe,dataPhimBoMoi,dataPhimChieuRap
                 <h2>{dataPhimLe.title}</h2>
             </div>
             <div className="movie-list">
-            {dataPhimLe.flim.map((item)=>(
+            {dataPhimLe.film.map((item)=>(
                 <a href={`/phim/${item.idphim}`} className="movie-item">
                     <span className="movie-quality">{item.quality}</span>
                     <img src={item.imgbig} key={item.idphim} alt={item.title}/>

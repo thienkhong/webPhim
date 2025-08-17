@@ -2,7 +2,7 @@ import { dataImgs } from './src/assets'
 
 export const dataPhimDeCu = [
     {title:"PHIM ĐỀ CỬ",
-    flim:[
+    film:[
         {   
             idphim:"BoTuSieuDang",
             imgbig:dataImgs.imgBigBoTuSieuDang,
@@ -220,7 +220,7 @@ export const dataPhimLe =[
                 title:"Hài hước",
             }
         ],
-        flim:[
+        film:[
         {   
             idphim:"BoTuSieuDang",
             imgbig:dataImgs.imgBigBoTuSieuDang,
@@ -439,7 +439,7 @@ export const dataPhimBoMoi =[
                 title:"Phim Bộ Full",
             }
         ],
-        flim:[
+        film:[
         {   
             idphim:"BoTuSieuDang",
             imgbig:dataImgs.imgBigBoTuSieuDang,
@@ -658,7 +658,7 @@ export const dataPhimChieuRap =[
                 title:"2020",
             }
         ],
-        flim:[
+        film:[
         {   
             idphim:"BoTuSieuDang",
             imgbig:dataImgs.imgBigBoTuSieuDang,
@@ -869,7 +869,7 @@ export const dataPhimThinhHanh =[
                 title:"Phim Bộ Thịnh hành",
             }
         ],
-        flim:[
+        film:[
         {   
             idphim:"BoTuSieuDang",
             imgbig:dataImgs.imgBigBoTuSieuDang,
@@ -1080,7 +1080,7 @@ export const dataPhimMoiSapChieu =[
                 title:"",
             }
         ],
-        flim:[
+        film:[
         {   
             idphim:"BoTuSieuDang",
             imgbig:dataImgs.imgBigBoTuSieuDang,

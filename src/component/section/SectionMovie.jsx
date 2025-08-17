@@ -15,13 +15,13 @@ export default function SectionMovie (){
 
   // Tập hợp tất cả các nguồn dữ liệu phim vào một mảng để dễ dàng duyệt qua
   const allMovieSources = [
-    dataPhimMoiSapChieu[0]?.flim, 
-    dataPhimDeCu[0]?.flim,        
-    dataPhimLe[0]?.flim,          
-    dataPhimBoMoi[0]?.flim,       
-    dataPhimChieuRap[0]?.flim,    // Thêm mảng này vào nguồn tìm kiếm
-    dataPhimThinhHanh[0]?.flim,   // Thêm mảng này vào nguồn tìm kiếm
-  ].filter(Boolean); // Lọc bỏ các giá trị undefined nếu một nguồn không tồn tại hoặc không có mảng 'flim'
+    dataPhimMoiSapChieu[0]?.film, 
+    dataPhimDeCu[0]?.film,        
+    dataPhimLe[0]?.film,          
+    dataPhimBoMoi[0]?.film,       
+    dataPhimChieuRap[0]?.film,    // Thêm mảng này vào nguồn tìm kiếm
+    dataPhimThinhHanh[0]?.film,   // Thêm mảng này vào nguồn tìm kiếm
+  ].filter(Boolean); // Lọc bỏ các giá trị undefined nếu một nguồn không tồn tại hoặc không có mảng 'film'
 
   // Duyệt qua từng nguồn dữ liệu để tìm kiếm bộ phim có ID tương ứng
   for (const source of allMovieSources) {
