@@ -68,7 +68,7 @@ export default function SectionMovie (){
     overflow: 'hidden',
     display: 'flex',
     flexDirection: 'column', // Tương đương flex-col (mặc định cho mobile)
-    maxWidth: '48rem', // Tương đương max-w-4xl
+    maxWidth: '70rem', // Tương đương max-w-4xl
     width: '100%',
   };
 
@@ -164,7 +164,7 @@ export default function SectionMovie (){
       <div style={cardStyle}>
         <div style={imageWrapperStyle}>
           <img
-            src={movie.img || 'https://placehold.co/400x600/1a202c/e2e8f0?text=No+Image'}
+            src={movie.imgbig || 'https://placehold.co/400x600/1a202c/e2e8f0?text=No+Image'}
             alt={movie.title}
             style={imageStyle}
             onError={(e) => { e.target.onerror = null; e.target.src = 'https://placehold.co/400x600/1a202c/e2e8f0?text=Image+Error'; }}

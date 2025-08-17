@@ -16,7 +16,7 @@ export default function SectionPhimLe({dataPhimDeCu,dataPhimLe,dataPhimChieuRap,
             {dataPhimLe.flim.map((item,index)=>(
                 <a href={`/phim/${item.idphim}`} className={`movie-item ${index === 0 ? 'big':''}`}>
                     <span className="movie-quality">{item.quality}</span>
-                    <img src={item.img} key={item.idphim} alt={item.title}/>
+                    <img src={item.imgbig} key={item.idphim} alt={item.title}/>
                     <div className="movie-title">
                         <p>{item.title}</p>
                     </div>

@@ -66,7 +66,7 @@ export default function SectionPhimLe({ dataPhimDeCu }) {
               className="phimItem"
             >
               <span className="phimQuality">{item.quality}</span>
-              <img src={item.img} alt={item.title} />
+              <img src={item.imgbig} alt={item.title} />
               <div className="phimTitle">
                 <p>{item.title}</p>
               </div>
