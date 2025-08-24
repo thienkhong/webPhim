@@ -8,7 +8,6 @@ import {
 } from "../../../data";
 import SectionPhim from "../section/Section";
 import SectionPhimDeCu from "../section/SectionPhimDeCu.jsx";
-import SectionPagi from "../section/SectionPagi";
 
 export default function MainContent() {
   const allFilmSections = [
@@ -16,7 +15,6 @@ export default function MainContent() {
     dataPhimBoMoi[0],
     dataPhimChieuRap[0],
     dataPhimThinhHanh[0],
-    dataPhimMoiSapChieu[0],
   ].filter(Boolean);
   return (
     <main className="main-content max-width-1500">
@@ -25,16 +23,11 @@ export default function MainContent() {
       ))}
 
       {allFilmSections.map((section) => (
-        <SectionPhim
-          key={section.id}
-          // sectionData={section}
-          dataPhimLe={section}
-        />
+        <SectionPhim key={section.id} dataPhimLe={section} />
       ))}
-
-      {/* {dataPhimDeCu.map((section)=>(
-            <SectionPhim key={section.id} dataPhimLe={section}/>
-        ))}*/}
+      {dataPhimMoiSapChieu.map((section) => (
+        <SectionPhimDeCu key={section.id} dataPhimDeCu={section} />
+      ))}
     </main>
   );
 }

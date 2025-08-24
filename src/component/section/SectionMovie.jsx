@@ -47,41 +47,43 @@ export default function SectionMovie() {
 
   // Nếu tìm thấy phim, hiển thị thông tin chi tiết
   return (
-    <div class="maincontent-phim">
-      <div class="maincontent-img">
-        <img src={movie.imgbig} alt="" />
-        <div class="maincontent-title">
+    <div className="maincontent-phim">
+      <div className="maincontent-img">
+        <div className="opacity">
+          <img src={movie.imgbig} alt="" />
+        </div>
+        <div className="maincontent-title">
           <img src={movie.img} alt="" />
-          <div class="title-content">
+          <div className="title-content">
             <h1>{movie.title}</h1>
             <h2>{movie.title}</h2>
-            <div class="title-content-button">
-              <button class="button-red">
-                <span class="button-flex">
-                  <i class="fa-brands fa-youtube"></i>
+            <div className="title-content-button">
+              <button className="button-red">
+                <span className="button-flex">
+                  <i className="fa-brands fa-youtube"></i>
                   <p>Trailer</p>
                 </span>
               </button>
-              <button class="button-blue">
-                <span class="button-flex">
-                  <i class="fa-solid fa-circle-play"></i>
+              <button className="button-blue">
+                <span className="button-flex">
+                  <i className="fa-solid fa-circle-play"></i>
                   <p>Xem Phim</p>
                 </span>
               </button>
             </div>
           </div>
         </div>
-        <div class="icon-play">
+        <div className="icon-play">
           <a href="#">
-            <i class="fa-solid fa-circle-play"></i>
+            <i className="fa-solid fa-circle-play"></i>
           </a>
         </div>
       </div>
-      <div class="maincontent-noidung">
-        <div class="maincontent-danhgia">
+      <div className="maincontent-noidung">
+        <div className="maincontent-danhgia">
           <button>
-            <span class="button-flex">
-              <i class="fa-solid fa-thumbs-up"></i>
+            <span className="button-flex">
+              <i className="fa-solid fa-thumbs-up"></i>
               <p>Thích</p>
               <p>0</p>
             </span>
@@ -90,7 +92,7 @@ export default function SectionMovie() {
             <span>Chia sẻ</span>
           </button>
         </div>
-        <ul class="maincontent-infor">
+        <ul className="maincontent-infor">
           <li>
             <label>Đang phát: </label>
             <span>
@@ -146,7 +148,7 @@ export default function SectionMovie() {
             </span>
           </li>
         </ul>
-        <div class="noidungphim">
+        <div className="noidungphim">
           <h1>Nội dung phim</h1>
           <p>{movie.moviecontent}</p>
         </div>
