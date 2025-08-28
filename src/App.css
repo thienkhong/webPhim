@@ -309,7 +309,7 @@ body {
         }
 
         .phimSlider {
-          position: relative;.phimQuality
+          position: relative;
         }
 
         .phimList {
@@ -384,7 +384,7 @@ body {
           cursor: pointer;
           z-index: 10;
           border-radius: 4px;
-          transition: background 0.2s;
+          transition:0.2s;
         }
 
         .phimNavBtn:hover {
