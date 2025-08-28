@@ -384,7 +384,7 @@ body {
   cursor: pointer;
   z-index: 10;
   border-radius: 4px;
-  transition: background 0.2s;
+  transition: 0.2s;
 }
 
 .phimNavBtn:hover {
@@ -537,6 +537,7 @@ body {
   list-style-type: none;
   font-size: 13px;
   border-bottom: 1px solid #828282;
+  /* asa  */
   padding-bottom: 20px;
 }
 

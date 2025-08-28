@@ -17,7 +17,7 @@ export default function MainContent() {
     dataPhimThinhHanh[0],
   ].filter(Boolean);
   return (
-    <main className="main-content max-width-1500">
+    <main className="main-content max-width-1500 ">
       {dataPhimDeCu.map((section) => (
         <SectionPhimDeCu key={section.id} dataPhimDeCu={section} />
       ))}

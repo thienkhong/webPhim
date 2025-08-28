@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer class="footer">
+    <footer class="footer ">
       <div class="footer-content max-width-1500">
         <div class="footer-col">
           <h3>Phim Mới</h3>
