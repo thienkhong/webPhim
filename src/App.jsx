@@ -25,7 +25,6 @@ function App() {
         <Route path="/phimchieurap" element={<PhimChieuRap />} />
         {/* <Route path="/trailer" element={<MainContentPhim />} /> */}
         <Route path="/topphim" element={<TopPhim />} />
-        {/* Thêm các Route khác nếu cần */}
         <Route path="/phim/:idphim" element={<MovieDetail />} />
       </Routes>
       <Footer/>
