@@ -1,6 +1,6 @@
 import { useRef, useEffect } from "react";
 
-export default function SectionPhimLe({ dataPhimDeCu }) {
+export default function SectionPhimLe({ dataPhimDeCu, dataCoTheMuonXem }) {
   const movieListRef = useRef(null);
   const btnLeftRef = useRef(null);
   const btnRightRef = useRef(null);
